@@ -1,0 +1,75 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Bytecode cache
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# Testing
+# -------------------------
+# pytest cache
+.pytest_cache/
+# test reports
+test-results.xml
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# -------------------------
+# FastAPI / Uvicorn
+# -------------------------
+# Uvicorn reload artifacts
+*.pid
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# Generic editor backups
+*~
+*.swp
+*.swo
+*.iml
+
+# -------------------------
+# OS-specific
+# -------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Docker
+# -------------------------
+# Docker build artifacts
+*.tar
